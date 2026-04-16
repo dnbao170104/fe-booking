@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://be-quan-ly-booking-ks-1.onrender.com",
+  // Đã thêm /api vào cuối đường link
+  baseURL: "https://be-quan-ly-booking-ks-1.onrender.com/api",
   timeout: 15000,
 });
 
