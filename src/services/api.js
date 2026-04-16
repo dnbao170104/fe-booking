@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3001/api",
+  baseURL: "https://be-quan-ly-booking-ks-1.onrender.com",
   timeout: 15000,
 });
 
